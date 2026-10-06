@@ -1,0 +1,23 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://reportaudit.local/vex/1",
+  "author": "Irene Yago",
+  "timestamp": "2026-10-06T11:12:00Z",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "GHSA-gmj6-6f8f-6699"
+      },
+      "timestamp": "2026-10-06T11:12:00Z",
+      "products": [
+        {
+          "@id": "pkg:pypi/jinja2@3.1.2"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "El fallo afecta al sandbox de plantillas de Jinja2. Nuestro código en app/servicio.py no renderiza plantillas, solo responde con jsonify."
+    }
+  ]
+}

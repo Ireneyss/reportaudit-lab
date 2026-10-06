@@ -1,0 +1,22 @@
+[
+ {
+  "Description": "Generic API Key",
+  "StartLine": 21,
+  "EndLine": 21,
+  "StartColumn": 15,
+  "EndColumn": 66,
+  "Match": "API_KEY = \"Rq7Hx2Lm9Xc4Vb8Nz1Kd6Fs3Tg5Wy0Pj2Re4UaBt\"",
+  "Secret": "Rq7Hx2Lm9Xc4Vb8Nz1Kd6Fs3Tg5Wy0Pj2Re4UaBt",
+  "File": "app/reporte_auditoria.py",
+  "SymlinkFile": "",
+  "Commit": "f02ea943ff49a0ffe924de0ddad488618ae760d8",
+  "Entropy": 5.171928,
+  "Author": "Irene Yago Soriano",
+  "Email": "irenedeyecla@gmail.com",
+  "Date": "2026-09-28T17:53:25Z",
+  "Message": "chore: importar repositorio base de ReportAudit",
+  "Tags": [],
+  "RuleID": "generic-api-key",
+  "Fingerprint": "f02ea943ff49a0ffe924de0ddad488618ae760d8:app/reporte_auditoria.py:generic-api-key:21"
+ }
+]
