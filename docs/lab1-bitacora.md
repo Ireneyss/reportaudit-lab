@@ -88,7 +88,7 @@ El archivo reportaudit.openvex.json ha sido completado y se encuentra en docs/ev
 | Vulnerabilidades en SonarQube Cloud (rama main) | 6 | 0 (CSRF de servicio.py valorado y aceptado con justificación) |
 | Security Hotspots por revisar en SonarQube Cloud | 0 | 0 |
 | Vulnerabilidades de Grype sobre el SBOM | 13 | 0 |
-| Alertas abiertas de Dependabot | 13 | 1 (alerta desfasada de flask: requirements.txt ya fija 3.1.3, versión que la corrige) |
+| Alertas abiertas de Dependabot | 13 | 0 (la de flask era una lectura desfasada del grafo de dependencias, que seguía registrando 3.0.0 aunque requirements.txt fija 3.1.3: descartada como «Inaccurate» con justificación) |
 
 Medidas adicionales y evidencias (`docs/evidencias/`):
 
