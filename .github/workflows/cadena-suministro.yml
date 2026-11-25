@@ -65,7 +65,6 @@ jobs:
         with:
           inputs: requirements.txt
           no-deps: true
-          disable-pip: true
 
   secretos-gitleaks:
     name: Secretos - Gitleaks
