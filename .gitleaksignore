@@ -1,0 +1,5 @@
+# Credentials exposed in the import commit and rotated in Part M.
+# bdcb176: copy of the same API key in the old unredacted gitleaks report (file removed in this PR).
+bdcb176f8386ed5548b34fa942b11d2220bc1278:docs/evidencias/gitleaks-reporte.json:generic-api-key:9
+f02ea943ff49a0ffe924de0ddad488618ae760d8:app/reporte_auditoria.py:reportaudit-hardcoded-credential:21
+f02ea943ff49a0ffe924de0ddad488618ae760d8:app/reporte_auditoria.py:reportaudit-hardcoded-credential:22
